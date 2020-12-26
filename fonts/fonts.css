@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yceryd');
+  src:  url('fonts/icomoon.eot?yceryd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yceryd') format('truetype'),
+    url('fonts/icomoon.woff?yceryd') format('woff'),
+    url('fonts/icomoon.svg?yceryd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-profile-male:before {
+  content: "\e907";
+}
+.icon-arrow_drop_down:before {
+  content: "\e908";
+}
+.icon-shopping_basket:before {
+  content: "\e906";
+}
+.icon-social-at-circular:before {
+  content: "\e901";
+}
+.icon-social-tumbler-circular:before {
+  content: "\e902";
+}
+.icon-social-facebook-circular:before {
+  content: "\e903";
+}
+.icon-social-twitter-circular:before {
+  content: "\e904";
+}
+.icon-social-vimeo-circular:before {
+  content: "\e905";
+}
+.icon-google-with-circle:before {
+  content: "\e900";
+}
+.icon-search:before {
+  content: "\e986";
+}
